@@ -1,0 +1,14 @@
+= ActiveRecord Cassandra Adapter 2
+
+== What
+
+NullDB is the Null Object pattern as applied to ActiveRecord database
+
+== Changes
+
+ * Version 0.0.1 (2012-06-20)
+   - Initial Release
+
+== License
+
+See the LICENSE file for licensing information.
