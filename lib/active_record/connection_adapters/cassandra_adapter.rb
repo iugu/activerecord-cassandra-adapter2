@@ -29,6 +29,8 @@ module ActiveRecord
 
   module ConnectionAdapters
     class CassandraColumn < Column
+
+      private
     end
 
     class CassandraAdapter < AbstractAdapter
@@ -125,7 +127,7 @@ module ActiveRecord
         # puts y(columnfamilies)
         # puts y(columnfamily_columns)
         # select * from system.schema_columns
-        false
+        []
       end
 
       # Connection Management
